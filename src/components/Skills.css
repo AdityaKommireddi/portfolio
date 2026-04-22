@@ -1,37 +1,35 @@
-.skills-section {
-  padding: 0; /* Let the section container handle padding */
-  text-align: left;
-}
-
 .skill-group {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .skill-category {
-  color: var(--accent-white);
+  color: white;
   font-size: 0.8rem;
-  margin-bottom: 15px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
 }
 
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
 .skill-pill {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid var(--neon-blue);
+  background: black;
+  border: 1px solid var(--white-outline);
   color: var(--text-main);
-  padding: 6px 15px;
+  padding: 8px 18px;
   border-radius: 12px;
   font-size: 0.85rem;
-  transition: 0.3s;
+  font-weight: bold;
+  transition: 0.2s;
 }
 
 .skill-pill:hover {
-  background: var(--neon-blue);
-  color: var(--bg-dark);
+  background: var(--f1-yellow);
+  color: black;
+  border-color: var(--f1-yellow);
+  transform: scale(1.05);
 }
