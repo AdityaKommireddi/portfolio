@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css'; // We will create this file next
+import './Skills.css';
 
 const skillData = [
   { category: "Languages", skills: ["C", "Python", "Java", "JavaScript", "R", "TypeScript"] },
