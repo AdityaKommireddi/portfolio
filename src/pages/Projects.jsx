@@ -11,7 +11,7 @@ const projectData = [
   {
     title: "BidEval AI",
     description: "An automated evaluation tool for government procurement bids, built using Streamlit and Gemini 1.5 Pro to automate complex document reasoning.",
-    tech: ["Streamlit", "Gemini 1.5 Pro", "LLMs", "Automation"],
+    tech: ["Streamlit", "Gemini 1.5 Pro"],
     link: "https://github.com/AdityaKommireddi/BidEval-AI"
   }
 ];
