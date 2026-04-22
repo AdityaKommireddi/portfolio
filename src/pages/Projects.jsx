@@ -5,7 +5,7 @@ const projectData = [
   {
     title: "PitStop AI",
     description: "An NLP chatbot application developed to assist players with F1 game car setups. Features a manually curated dataset of over 1,100 examples and classifies 15 distinct intent categories.",
-    tech: ["NLP", "Python", "F1 Sim", "Intent Classification"],
+    tech: ["NLP", "Python", "Intent Classification"],
     link: "https://github.com/AdityaKommireddi/NLP-Project"
   },
   {
