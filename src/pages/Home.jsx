@@ -16,7 +16,7 @@ function Home() {
 
       <section>
         <h2>Research Interests</h2>
-        <p>Focusing on NLP, AI-driven evaluation models, and developing sophisticated knowledge bases.</p>
+        <p>Natural Language Processing, Machine Learning, Data Science and developing sophisticated knowledge bases.</p>
       </section>
 
       <section>
