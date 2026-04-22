@@ -6,13 +6,13 @@ const projectData = [
     title: "PitStop AI",
     description: "An NLP chatbot application developed to assist players with F1 game car setups. Features a manually curated dataset of over 1,100 examples and classifies 15 distinct intent categories.",
     tech: ["NLP", "Python", "F1 Sim", "Intent Classification"],
-    link: "https://github.com/AdityaKommireddi/PitStop-AI"
+    link: "https://github.com/AdityaKommireddi/NLP-Project"
   },
   {
     title: "BidEval AI",
     description: "An automated evaluation tool for government procurement bids, built using Streamlit and Gemini 1.5 Pro to automate complex document reasoning.",
     tech: ["Streamlit", "Gemini 1.5 Pro"],
-    link: "https://github.com/AdityaKommireddi/BidEval-AI"
+    link: "https://github.com/Jeevjoel/BidEvalUI"
   }
 ];
 
