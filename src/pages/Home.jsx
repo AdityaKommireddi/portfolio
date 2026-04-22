@@ -43,10 +43,6 @@ My experience includes developing an NLP-based F1 chatbot that assists players t
             <strong>College Email</strong> 
             se23umcs025@mahindrauniversity.edu.in
           </li>
-          <li>
-            <strong>Roll Number</strong> 
-            SE23UMCS025
-          </li>
         </ul>
       </section>
 
