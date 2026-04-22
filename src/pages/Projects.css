@@ -1,0 +1,95 @@
+.projects-container {
+  max-width: 1000px; 
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-box {
+  background: var(--racing-blue);
+  border: 1px solid var(--white-outline); 
+  border-radius: 24px; 
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  transition: 0.3s ease-in-out;
+  box-shadow: 8px 8px 0px var(--neon-red); 
+}
+
+.project-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 12px 12px 0px var(--f1-yellow);
+}
+
+.project-box h3 {
+  color: var(--f1-yellow);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.project-box p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: var(--text-main);
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.tech-tag {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--white-outline);
+  color: var(--text-main);
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.github-btn {
+  display: block;
+  text-align: center;
+  background: var(--neon-red);
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  border: 1px solid var(--white-outline);
+}
+
+.github-btn:hover {
+  background: white;
+  color: var(--racing-blue);
+  box-shadow: 0 0 15px white;
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-box {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+}

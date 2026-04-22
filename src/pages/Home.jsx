@@ -15,9 +15,9 @@ function Home() {
       <section>
         <h2>About Me</h2>
         <p>
-          I’m a Computer Science student with a strong interest in data science and NLP. 
-          I enjoy working on projects that involve analyzing data, identifying patterns, and building practical solutions. 
-          I have a problem-solving mindset and enjoy understanding the underlying patterns in data.
+          I am a Computer Science student at Mahindra University with a strong interest in data science and natural language processing.
+I enjoy building data-driven systems that solve real-world problems and help users make better decisions.
+My experience includes developing an NLP-based F1 chatbot that assists players through feedback-driven insights.
         </p>
       </section>
 
